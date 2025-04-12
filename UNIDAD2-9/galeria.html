@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria CSS - AVANZADA</title>
+    <link rel="stylesheet" href="relieve.css">
+</head>
+<body>
+    <!--SE PROCEDE A CREAR CHECKBOX PARA CADA IMAGEN-->
+    <input type="checkbox" id="img1">
+    <input type="checkbox" id="img2">
+    <input type="checkbox" id="img3">
+
+    <section class="galeria">
+        <label class="imagen" for="img1">
+            <img src="../UNIDAD2_9/images/1.jpg" alt="Montaña">
+        </label>
+        <label class="imagen" for="img2">
+            <img src="../UNIDAD2_9/images/2.jpg" alt="Bosque">
+        </label>
+        <label class="imagen" for="img3">
+            <img src="../UNIDAD2_9/images/3.jpg" alt="Playa">
+        </label>
+    </section>
+
+    <!--SE PROCEDE A CREAR LOS MODALES-->
+    <!--MODA 1-->
+<div class="modal" id="modal1">
+    <div class="modal-content">
+        <label class="cerrar" for="img1">&times;</label>
+        <img src="../UNIDAD2_9/images/1.jpg" alt="Montaña grande">
+        <h2>Montaña</h2>
+        <p>Una vista hermosa de una montaña al amanecer</p>
+    </div>
+</div>
+
+    <!--MODA 2-->
+    <div class="modal" id="modal2">
+        <div class="modal-content">
+            <label class="cerrar" for="img2">&times;</label>
+            <img src="../UNIDAD2_9/images/2.jpg" alt="Bosque Grande">
+            <h2>Bosque</h2>
+            <p>Una Bosque denso y misterioso en la neblina</p>
+        </div>
+    </div>
+    
+    <!--MODA 3-->
+    <div class="modal" id="modal3">
+        <div class="modal-content">
+            <label class="cerrar" for="img3">&times;</label>
+            <img src="../UNIDAD2_9/images/3.jpg" alt="PlAYA Grande">
+            <h2>Playa</h2>
+            <p>Relajante vista de la playa en verano</p>
+        </div>
+    </div>    
+</body>
+</html>
